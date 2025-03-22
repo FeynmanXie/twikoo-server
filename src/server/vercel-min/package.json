@@ -1,1 +1,20 @@
-{ "dependencies": { "twikoo-vercel": "latest" } }
+{
+  "name": "twikoo-with-cors",
+  "version": "1.0.0",
+  "description": "Twikoo 评论系统（支持本地开发 CORS）",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "twikoo-vercel": "^1.6.10"
+  },
+  "devDependencies": {
+    "vercel": "^28.20.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
